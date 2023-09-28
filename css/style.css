@@ -1,0 +1,106 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+body{
+    margin-top: 5px;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgb(192, 13, 212), white);
+    /* background-color: rgb(11, 110, 110); */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    
+
+}
+
+.container{
+    max-width: 900px;
+    border: 2px solid rgb(192, 13, 212);
+    margin: auto;
+    height: 60vh;
+    margin-bottom: 10px;
+    margin-top: -14px;
+    padding: 30px;
+    overflow-y: auto;
+    border-radius: 15px;
+}
+
+.message{
+    background-color: white;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 2px;
+    border: 2px solid rgb(192, 13, 212);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+   float: right;
+   clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1025px;
+    
+}
+
+#messageInp{
+    width: 85%;
+    border: 2px solid rgb(192, 13, 212);
+    border-radius: 4px;
+    height: 24px;
+    font-size: 20px;
+}
+
+.btn{
+    width: 76px;
+    cursor: pointer;
+    border: 2px solid rgb(192, 13, 212);
+    border-radius: 4px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(192, 13, 212);
+    color: black;
+    width: 76px;
+    cursor: pointer;
+    border: 2px solid rgb(192, 13, 212);
+    border-radius: 4px;
+    height: 30px;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    display: block;
+    
+
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
